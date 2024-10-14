@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battery RUL Forecasting</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Battery RUL Forecasting</h1>
+        <div class="input-group">
+            <label for="capacity">Battery Capacity (Ah):</label>
+            <input type="number" id="capacity" placeholder="Enter capacity">
+        </div>
+        <div class="input-group">
+            <label for="cycles">Charge Cycles:</label>
+            <input type="number" id="cycles" placeholder="Enter cycles">
+        </div>
+        <div class="input-group">
+            <label for="temperature">Temperature (°C):</label>
+            <input type="number" id="temperature" placeholder="Enter temperature">
+        </div>
+        <button id="forecastButton">Forecast RUL</button>
+        <h2 id="result" class="result"></h2>
+    </div>
+    <script src="test.js"></script>
+</body>
+</html>
